@@ -5,7 +5,7 @@ import express from "express";
 const server = express();
 
 server.get('/', function (req, res) {
-  res.send('BTCTracker')
+  res.send('ETHtracker')
 });
 
 function keepAlive() {
@@ -14,7 +14,7 @@ function keepAlive() {
   });
 }
 
-const url = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd";
+const url = "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd";
 let lastPrice;
 
 const client = new Client({
@@ -32,7 +32,7 @@ client.once("ready", () => {
   
   setInterval(async () => {
     getPrice();
-    client.user.setActivity("BTC: $" + lastPrice, { type: "WATCHING" }).catch(console.error);
+    client.user.setActivity("ETH: $" + lastPrice, { type: "WATCHING" }).catch(console.error);
   }, 5000);
 });
 
