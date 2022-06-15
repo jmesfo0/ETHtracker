@@ -20,19 +20,12 @@ To Invite the bot to your server, use the [Discord invite link](https://discord.
 ## Heroku Guide
 
 Fork this repoistory.<br />
-
 Create an app on Heroku.<br />
-
 Select Deploy->Github and connect your account.<br />
-
 Put repo name in.<br />
-
 Select Enable Automatic Deploys then Deploy Branch<br />
-
 Go to Settings->Reveal Config Vars<br />
-
 Add BOT_TOKEN in environmental variables.<br />
-
 Done.
 
 
