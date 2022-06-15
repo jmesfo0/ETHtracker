@@ -1,0 +1,29 @@
+{
+  "name": "btctracker",
+  "version": "1.0.0",
+  "description": "btctracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.4.0",
+    "express": "^4.17.1"
+  },
+  "type": "module",
+  "author": "damagr",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "crypto",
+    "discord-bot",
+    "cryptocurrency",
+    "discord-js",
+    "cryptoprices"
+  ]
+}
