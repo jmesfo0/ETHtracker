@@ -21,7 +21,6 @@ const client = new Client({
   intents: [Intents.FLAGS.GUILDS],
 });
 
-const BOT_ID = process.env["BOT_ID"];
 const BOT_TOKEN = process.env["BOT_TOKEN"];
 
 client.once("ready", () => {
