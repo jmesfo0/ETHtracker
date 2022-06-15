@@ -38,7 +38,7 @@ client.once("ready", () => {
 
 function getPrice() {
   axios.get(url).then((response) => {
-    lastPrice = response.data.bitcoin.usd;
+    lastPrice = response.data.ethereum.usd;
   });
 }
 
