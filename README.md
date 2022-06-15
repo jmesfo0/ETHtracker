@@ -15,3 +15,25 @@ To Invite the bot to your server, use the [Discord invite link](https://discord.
  `node .`
  <br />
  Congratulations! You now have a running the Discord bot.
+
+
+## Heroku Guide
+
+Fork this repoistory.<br />
+
+Create an app on Heroku.<br />
+
+Select Deploy->Github and connect your account.<br />
+
+Put repo name in.<br />
+
+Select Enable Automatic Deploys then Deploy Branch<br />
+
+Go to Settings->Reveal Config Vars<br />
+
+Add BOT_TOKEN in environmental variables.<br />
+
+Done.
+
+
+
