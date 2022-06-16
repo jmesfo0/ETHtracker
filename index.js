@@ -35,6 +35,12 @@ client.once("ready", () => {
   }, 5000);
 });
 
+client.on('message', msg => {
+  if (msg.content === '!eth') {
+    msg.reply('Current ETH Price: $'+lastPrice);
+  }
+});
+
 function getPrice() {
   axios.get(url).then((response) => {
     lastPrice = response.data.ethereum.usd;
