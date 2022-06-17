@@ -37,7 +37,7 @@ client.once("ready", () => {
 
 client.on('message', msg => {
   if (msg.content === '!eth') {
-    msg.reply('**Current ETH Price:** $'+lastPrice);
+    msg.reply('Current ETH Price: $'+lastPrice);
   }
 });
 
