@@ -1,6 +1,7 @@
 import { Client, Intents } from "discord.js";
 import axios from "axios";
 import express from "express";
+import {} from 'dotenv/config'
 
 const server = express();
 
