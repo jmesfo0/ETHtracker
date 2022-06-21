@@ -10,6 +10,8 @@ To Invite the bot to your server, use the [Discord invite link](https://discord.
  <br />
  Next, ensure that you have NodeJS and NPM installed and run:
  <br />
+ `npm install -g nodemon`
+ <br />
  `npm install`
  <br />
  `start.bat nodemon index`
