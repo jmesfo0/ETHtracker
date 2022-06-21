@@ -12,7 +12,7 @@ To Invite the bot to your server, use the [Discord invite link](https://discord.
  <br />
  `npm install`
  <br />
- `node .`
+ `start.bat nodemon index`
  <br />
  Congratulations! You now have a running the Discord bot.
 
